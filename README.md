@@ -18,4 +18,4 @@ A script to facilitate the writing of long emails. Allows to store phrases in a
 dictionary which can then copied to the clipboard by entering the corresponding key.
 
 ## /various
-Contains various scripts an snippeds that were useful at one point.
+Contains various scripts an snippets that were useful at one point.
