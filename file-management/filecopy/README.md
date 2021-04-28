@@ -26,15 +26,15 @@ Um das Script zu verwenden muss du im conf file einen oder mehrere Jobs in einer
 ```
 <JobList>
     <Job>
-        <SourcePath>\\btcstg1b\BTC-Data\03 - Sales\03.01 - Accounts\03.00.01 - IGS - IG Sozialversicherungen</SourcePath>
-        <DestinationPath>G:\Sync\BTC (Schweiz) AG\IGS - IGS Dokumente\01 Sales</DestinationPath>
+        <SourcePath>\\Server\path\to\sourcefolder</SourcePath>
+        <DestinationPath>G:\my\Destination\folder</DestinationPath>
         <CleanPrefix>0</CleanPrefix>
         <UseIgnoreFolders>1</UseIgnoreFolders>
         <Name>IGS_Sales</Name>
     </Job>
     <Job>
-        <SourcePath>\\btcstg1b\BTC-Data\03 - Sales\03.01 - Accounts\03.00.01 - IGS - IG Sozialversicherungen</SourcePath>
-        <DestinationPath>G:\Sync\BTC (Schweiz) AG\IGS - IGS Dokumente\01 Sales</DestinationPath>
+        <SourcePath>\\Server2\Source</SourcePath>
+        <DestinationPath>G:\my\second\targetfolder</DestinationPath>
         <CleanPrefix>0</CleanPrefix>
         <UseIgnoreFolders>0</UseIgnoreFolders>
         <Name>IGS_Projekte</Name>
